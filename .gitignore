@@ -1,0 +1,33 @@
+# config
+config/
+!config/ntu60_xsub_55_5split/
+# data
+data/nturgbd_raw/
+data/pkummd_raw/
+data/ntu60/denoised_data/
+data/ntu60/raw_data/
+data/ntu60/statistics/
+data/ntu60/*.npz
+data/ntu120/denoised_data/
+data/ntu120/raw_data/
+data/ntu120/statistics/
+data/ntu120/*.npz
+data/pkummd/part1/xsub/
+data/pkummd/part1/xview/
+data/pkummd/part1/*.npz
+data/pkummd/part2/xsub/
+data/pkummd/part2/xview/
+data/pkummd/part2/*.npz
+# feature folder
+feature_folder/
+# shiftgcn
+Pretrain_Shift_GCN/
+# others
+semantics/
+visualization/
+weights/
+work_dir/
+
+
+
+
