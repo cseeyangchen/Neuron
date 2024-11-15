@@ -6,3 +6,6 @@ torchlight.egg-info/PKG-INFO
 torchlight.egg-info/SOURCES.txt
 torchlight.egg-info/dependency_links.txt
 torchlight.egg-info/top_level.txt
+torchlight/__pycache__/__init__.cpython-38.pyc
+torchlight/__pycache__/gpu.cpython-38.pyc
+torchlight/__pycache__/util.cpython-38.pyc

@@ -74,4 +74,35 @@ Put downloaded data into the following directory structure:
 ```
 
 
+### Pretrain Skeleton Encoder (Shift-GCN) for Seen Classes 
 
+- For NTU RGB+D 60 dataset (55/5 split):
+```
+ cd Pretrain_Shift_GCN
+ python main.py --config config/ntu60_xsub_seen55_unseen5.yaml
+```
+
+- For PKU-MMD I dataset (46/5 split):
+```
+ cd Pretrain_Shift_GCN
+ python main.py --config config/pkuv1_xsub_seen46_unseen5.yaml
+```
+
+
+### Training 
+
+- For NTU RGB+D 60 dataset (55/5 split):
+```
+ python main_match.py --config config/ntu60_xsub_55_5split/joint_shiftgcn_ViTL14@336px_match.yaml
+```
+
+- For PKU-MMD I dataset (46/5 split):
+```
+ cd Pretrain_Shift_GCN
+ python main_match.py --config config/pkuv1_xsub_46_5split/joint_shiftgcn_ViTL14@336px_match.yaml
+```
+
+## Acknowledgements
+This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [GAP](https://github.com/MartinXM/GAP). The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [AimCLR](https://github.com/Levigty/AimCLR). The baseline methods are from [SynSE](https://github.com/skelemoa/synse-zsl) and [SMIE](https://github.com/YujieOuO/SMIE).
+
+Thanks to the original authors for their work!

@@ -1,1 +1,1 @@
-from . import shiftgcn_match_ntu
+from . import shiftgcn_match
