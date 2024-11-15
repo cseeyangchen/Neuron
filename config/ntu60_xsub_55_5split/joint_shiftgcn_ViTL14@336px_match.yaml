@@ -1,0 +1,81 @@
+work_dir: ./work_dir/ntu60_xsub_55_5split/joint_shiftgcn_ViTL14@336px_gzsl
+
+# feeder
+feeder: feeders.feeder_ntu.Feeder_Shiftgcn_Match
+
+train_feeder_args:
+  data_path: /root/autodl-tmp/Neuron/data/ntu60/NTU60_CS.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen55_unseen5
+  zero_setting: ZSL
+  split: train
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+test_feeder_zsl_args:
+  data_path: /root/autodl-tmp/Neuron/data/ntu60/NTU60_CS.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen55_unseen5
+  zero_setting: ZSL
+  split: test
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+test_feeder_gzsl_args:
+  data_path: /root/autodl-tmp/Neuron/data/ntu60/NTU60_CS.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen55_unseen5
+  zero_setting: GZSL
+  split: test
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+# model
+model: model.shiftgcn_match.ModelMatch
+weights: /root/autodl-tmp/Neuron/weights/ntu60_ShiftGCN_joint_xsub_seen55_unseen5-89-51660.pt
+
+model_args:
+  num_class: 55
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+#optim
+weight_decay: 0.0005
+base_lr: 0.1
+lr_decay_rate: 0.1
+step: [4, 20]   # [4,10]
+warm_up_epoch: 0
+
+# training
+device: [0]
+batch_size: 64  # 200
+test_batch_size: 64
+num_epoch: 30 # 110
+nesterov: True
