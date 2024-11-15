@@ -102,6 +102,6 @@ Put downloaded data into the following directory structure:
 ```
 
 ## Acknowledgements
-This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [GAP](https://github.com/MartinXM/GAP). The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [AimCLR](https://github.com/Levigty/AimCLR). The baseline methods are from [SynSE](https://github.com/skelemoa/synse-zsl) and [SMIE](https://github.com/YujieOuO/SMIE).
+This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [GAP](https://github.com/MartinXM/GAP). The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [AimCLR](https://github.com/Levigty/AimCLR).
 
 Thanks to the original authors for their work!
