@@ -98,7 +98,6 @@ Put downloaded data into the following directory structure:
 
 - For PKU-MMD I dataset (46/5 split):
 ```
- cd Pretrain_Shift_GCN
  python main_match.py --config config/pkuv1_xsub_46_5split/joint_shiftgcn_ViTL14@336px_match.yaml
 ```
 
