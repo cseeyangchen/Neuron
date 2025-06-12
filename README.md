@@ -2,7 +2,7 @@
 This repo is the official implementation for [Neuron: Learning context-aware evolving representations for zero-shot skeleton action recognition](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Neuron_Learning_Context-Aware_Evolving_Representations_for_Zero-Shot_Skeleton_Action_Recognition_CVPR_2025_paper.html). The paper is accepted to **CVPR 2025**.
 
 ## Framework
-![image](/neuron.jpg)
+![image](src/neuron.png)
 
 ## Data Preparation
 
