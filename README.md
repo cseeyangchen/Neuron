@@ -108,7 +108,7 @@ Put downloaded data into the following directory structure:
 ```
 
 ## Acknowledgements
-This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [GAP](https://github.com/MartinXM/GAP). The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [AimCLR](https://github.com/Levigty/AimCLR).
+This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), [GAP](https://github.com/MartinXM/GAP), and [STAR](https://github.com/cseeyangchen/STAR). The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), [AimCLR](https://github.com/Levigty/AimCLR), and [STAR](https://github.com/cseeyangchen/STAR).
 
 Thanks to the original authors for their work!
 
