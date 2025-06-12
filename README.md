@@ -80,7 +80,7 @@ Put downloaded data into the following directory structure:
 ```
 
 
-### Pretrain Skeleton Encoder (Shift-GCN) for Seen Classes 
+## Pretrain Skeleton Encoder (Shift-GCN) for Seen Classes 
 
 - For NTU RGB+D 60 dataset (55/5 split):
 ```
@@ -95,7 +95,7 @@ Put downloaded data into the following directory structure:
 ```
 
 
-### Training 
+## Training 
 
 - For NTU RGB+D 60 dataset (55/5 split):
 ```
@@ -112,7 +112,7 @@ This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [GAP]
 
 Thanks to the original authors for their work!
 
-# Citation
+## Citation
 
 Please cite this work if you find it useful:.
 ```
