@@ -1,4 +1,10 @@
-# Data Preparation
+# Neuron
+This repo is the official implementation for [Neuron: Learning context-aware evolving representations for zero-shot skeleton action recognition](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Neuron_Learning_Context-Aware_Evolving_Representations_for_Zero-Shot_Skeleton_Action_Recognition_CVPR_2025_paper.html). The paper is accepted to **CVPR 2025**.
+
+## Framework
+![image](neuron.jpg)
+
+## Data Preparation
 
 ### Download datasets.
 
@@ -105,3 +111,16 @@ Put downloaded data into the following directory structure:
 This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [GAP](https://github.com/MartinXM/GAP). The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [AimCLR](https://github.com/Levigty/AimCLR).
 
 Thanks to the original authors for their work!
+
+# Citation
+
+Please cite this work if you find it useful:.
+```
+@inproceedings{chen2025neuron,
+  title={Neuron: Learning context-aware evolving representations for zero-shot skeleton action recognition},
+  author={Chen, Yang and Guo, Jingcai and Guo, Song and Tao, Dacheng},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={8721--8730},
+  year={2025}
+}
+```
