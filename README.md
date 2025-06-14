@@ -82,7 +82,7 @@ Put downloaded data into the following directory structure:
 
 ## Pretrain Skeleton Encoder (Shift-GCN) for Seen Classes 
 
-If you would like to train Shift-GCN yourself, you may follow the procedure below
+**If you would like to train Shift-GCN yourself, you may follow the procedure below：**
 
 - For NTU RGB+D 60 dataset (55/5 split):
 ```
@@ -99,7 +99,7 @@ If you would like to train Shift-GCN yourself, you may follow the procedure belo
 
 ## Shift-GCN Pretraining Weights
 
-For your convenience, pretrained weights for the Shift-GCN encoder are available for download from [BaiduDisk](https://pan.baidu.com/s/1Pad1U7ISFgHM-v4z-WdCAg?pwd=v35w) or [Google Drive](https://drive.google.com/file/d/1KOBBElm2QzWjMyQJwVhGyq06ezp8rOLX/view?usp=sharing), in case you’d prefer not to train it from scratch.
+For your convenience, **pretrained weights for the Shift-GCN encoder** are available for download from [BaiduDisk](https://pan.baidu.com/s/1Pad1U7ISFgHM-v4z-WdCAg?pwd=v35w) or [Google Drive](https://drive.google.com/file/d/1KOBBElm2QzWjMyQJwVhGyq06ezp8rOLX/view?usp=sharing), in case you’d prefer not to train it from scratch.
 
 
 
